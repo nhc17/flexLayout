@@ -1,31 +1,32 @@
-.div1 {
+.green-bg-col {
     width: 800px;
+    height: 500px;
     background-color: rgba(76, 219, 150, 0.36);
 }
 
-.layout1 {
+.all-row-flex-start {
     display: flex;
     flex-direction: row;
     align-content: center ;
 }
 
-.p1 {
+.no-bg-col {
     width: 100px;
-    height: 50px;
+    height: 100px;
     border-style: solid;
     border-color: blue;
     text-align: top;
 }
 
-.p2 {
+.pink-bg-col {
     width: 100px;
-    height: 50px;
+    height: 100px;
     background-color: #F89696;
     border-style: solid;
     border-color: blue;
 }
 
-.layout3 {
+.last-box-separated {
     display: flex;
     flex-direction: row;
     align-items: flex-start ;
@@ -37,62 +38,86 @@
     
 }
 
-.p4 {
+.with-left-margin {
     margin-left: 100px;
     width: 100px;
-    height: 50px;
+    height: 100px;
     border-style: solid;
     border-color: blue;
 }
 
-.layout5 {
+.four-boxes-as-square {
     width: 300px;
     display: flex;
     flex-flow: row wrap;
 }
 
-.p5 {
+.with-top-margin-pink {
     margin-top: -20px;
     width: 100px;
-    height: 50px;
+    height: 100px;
     border-style: solid;
     border-color: blue;
     background-color: #F89696;
 }
 
-.p6 {
+.with-top-margin-green {
     margin-top: -20px;
     width: 100px;
-    height: 50px;
+    height: 100px;
     border-style: solid;
     border-color: blue;
 }
 
-.layout6 {
-    width: 300px;
+
+.with-top-margin-pink {
+    margin-top: -20px;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color: blue;
+    background-color: #F89696;
+}
+
+
+.four-boxes-as-square-space-between {
+    width: 800px;
     display: flex;
-    flex-flow: row-reverse wrap-reverse;
+    flex-flow: row wrap;
     justify-content: space-around;
 }
 
 
-.p7 {
-    display: flex;
-    align-self: flex-start;
-    margin-top: -80px;
+.with-top-left-margin-pink {
+    margin-top: -120px;
+    margin-left: 700px;
     width: 100px;
-    height: 50px;
+    height: 100px;
     border-style: solid;
     border-color: blue;
+    background-color: #F89696;
 }
 
-.p8 {
-    display: flex;
-    align-self: flex-end;
+.with-top-left-margin-green {
+    margin-top: -20px;
+    margin-left: 100px;
     width: 100px;
-    height: 50px;
+    height: 100px;
     border-style: solid;
     border-color: blue;
+    
+}
+.column-flex-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
 }
 
-
+.no-bg-col-left-margin {
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    border-style: solid;
+    border-color: blue;
+    text-align: top;
+}
