@@ -13,6 +13,7 @@
 .no-bg-col {
     width: 100px;
     height: 100px;
+    margin: 0;
     border-style: solid;
     border-color: blue;
     text-align: top;
@@ -21,6 +22,7 @@
 .pink-bg-col {
     width: 100px;
     height: 100px;
+    margin: 0;
     background-color: #F89696;
     border-style: solid;
     border-color: blue;
@@ -39,7 +41,7 @@
 }
 
 .with-left-margin {
-    margin-left: 100px;
+    margin: 0 0 0 100px;
     width: 100px;
     height: 100px;
     border-style: solid;
@@ -53,38 +55,33 @@
 }
 
 .with-top-margin-pink {
-    margin-top: -20px;
     width: 100px;
     height: 100px;
+    margin: 0;
     border-style: solid;
     border-color: blue;
     background-color: #F89696;
 }
 
 .with-top-margin-green {
-    margin-top: -20px;
     width: 100px;
     height: 100px;
+    margin: 0;
     border-style: solid;
     border-color: blue;
 }
-
-
-.with-top-margin-pink {
-    margin-top: -20px;
-    width: 100px;
-    height: 100px;
-    border-style: solid;
-    border-color: blue;
-    background-color: #F89696;
-}
-
 
 .four-boxes-as-square-space-between {
     width: 800px;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 212px; /* To fit 2 box height */
+    align-content: space-between;
+}
+
+.box-reverse {
+    order: 4;
 }
 
 
@@ -99,8 +96,7 @@
 }
 
 .with-top-left-margin-green {
-    margin-top: -20px;
-    margin-left: 105px;
+    margin: 0 0 0 105px;
     width: 100px;
     height: 100px;
     border-style: solid;
@@ -116,7 +112,7 @@
 .no-bg-col-left-margin {
     width: 100px;
     height: 100px;
-    margin-left: 100px;
+    margin: 0 0 0 100px;
     border-style: solid;
     border-color: blue;
     text-align: top;
